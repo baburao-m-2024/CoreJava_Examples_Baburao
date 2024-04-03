@@ -1,0 +1,402 @@
+
+
+1) Create a java program to print your name on the console 
+
+ 
+-- 2) Try to display the content like below   -- 
+stmt 1 -- I am learning core java 
+stmt 2 -- Hi User !!
+stmt 3 -- I am learning UI
+stmt 4 -- HI User !!
+
+Expected Output : 
+ I am learning core java Hi User !!
+ I am learning UI Hi User !!
+ Clue: (diff btwn print and println)
+ 
+ 3) methods and variables ****
+ 
+ Clue : 3 method input parameters -- name, course, duration
+ Clue : how to use + operator
+ Clue : No Output back from the method
+ 
+    Write only 1 method and call that method from main method 3 times
+    first time -- babu corejava 45
+    second time -- satya ui   65 
+    third time  -- gopal spring 45
+ 
+ displayDetails(String name, String course, int duration){
+    
+ }
+ 
+ Expected Output : 
+   my name is babu
+   i am learning corejava
+   Course duration is 45 days
+   empty line
+   my name is satya
+   i am learning ui
+   Course duration is 65 days
+   empty line
+   my name is gopal
+   i am learning spring
+   Course duration is 45 days
+  empty line
+  
+  // code for the above assignment with flow of execution line numbers
+  
+  4) 
+      Understand the flow of execution
+      Provide me the line no. flow for above example
+   
+
+   5) Assgnmts on ARRAYS
+      --------------------
+       1) Create a string array 
+       2) and store atleast 6 indian cricketers names
+       	       
+       3) Display all cricketer names you have in your array variable  --- for  ****
+       4) Display the cricketer name who is in first index position of array (index position is 0)
+       5) Display the cricketer name who is in specified index position of array (index position is 5)
+       5) Display the cricketer name who is in specified index position of array (index position is 66)
+       6) Display the no of values you have stored in an array(CAPABILITY OF YOUR ARRAY)
+      ------------------------- 
+         
+       1) create int array, float array, boolean array with size as 4 individually
+       display all the values in the array 
+       Clue : default values 
+   -------------------------
+   
+   6) Assgnmts on Selective Stmts
+   
+      6.1) Create a method with name displayWeekName and this method expects weekNo
+           displaWeekName(2);
+            1 to 7
+            mon to sun
+            
+            Now call this method from main  method with different poss values (atleast 4 times)
+   
+   Operators concept is done ****         
+     6.2) Create a method with name displayExperience based on value we pass
+         If i receive value to this method < 2 --- then display Junior Level Software engineer
+         If i receive value >=2 and <4         --- then display Software Engineer
+         If i receive value > 4 and <6         --- then display Senior Level Software Engineer
+         If i receive value > 6 and <8         --- then display Associate Tech Lead
+         If i receive value > 8                --- then display Tech Lead          
+            
+
+     7) Switch case asgnmts
+       
+      -- 7.1)  Write a method and pass month value (atleast 6) and display its month name using SWITCH CASE
+      -- 7.2)  Write a method and pass any of below values
+           Dhoni
+           Kohli
+           Ashwin
+           Nehra
+           Jadeja
+           
+        Build Switch case
+        If you receive value as 
+            Dhoni -- you need to display -- Dhoni's role is Wicket Keeper
+            Kohli -- you need to display -- Kohli's role is Batsman
+            Ashwin -- "        "         -- Ashwin's role is Spin Bowler
+            Nehra  -- "        "         -- Nehra's role is Fast Bowler
+            Jadeja -- "         "        -- Jadeja's role is All Rounder
+            
+            
+  /////////////////////////////          
+      8) FOR loop :
+      
+        --- 8.1) create a method  and in that method iterate the loop for 10 times
+        while iteration in the method
+            -- if the iteration count value(index position) is even no. then print below stmts
+                  My Name is vishnu
+                  I am learning Core Java
+            -- If the iteration count value is odd no. then print below stmts
+                  My name is Uday
+                  I am learning core java
+            
+   ***********************************************************         
+            n = 99  // assigning value 0 to varaible n
+            no % 2 == 0 // checking whether the result of no/2 is same as 0 or not(whether both are equal or not)
+            no % 2 != 0
+no/2 and no%2
+     9) same above example in while loop and do while loop
+     track the iteration values as provided in demo examples\
+     
+     
+Conditional Statements : break, continue, return
+
+   10) Create a loop for values from 1 to 10 and break the loop from 4th even no.
+   
+   
+   11) Create a loop for values from 4 to 13 and break the loop only at 3rd even no 
+   Clue : use a local variable to know the count of even no.
+   
+		   Create a loop for values from 4 to 13 and break the loop only at 2rd odd no 
+		   Clue : use a local variable to know the count of even no.
+   
+   12) Create a method and call this method from main method
+        -- create  a loop from 1 to 10
+            -- return " I reached value 5" when your iteration count reaches 5
+   
+   13) create switch case in a method and call this method from another method which would be called from main method
+      switch case will take values for weekNo
+           Now return week name when specific case gets executed
+           
+  14) Write a program to find even no. , odd no.,
+    and print reverse of a number, and check whether the no. is palendrome no(123) if we reverse(321)
+  palendrome -- even we reverse we should get same
+        121 --- 121   -- palendrome
+        123 --- 321   -- not palendrome         
+     create 4 methods and call them independently from main method
+     
+     122   122 % 2  == 1  or else it is called as even
+     123
+     
+     
+     
+     ###############################################################################
+  15) Example for postDecrement and preIncrement Operations
+  
+  16) create an example to get result of below formula 
+       ( (a+b) * (c/d) )%2  
+       // operations are   -- addition, division, multiplication, modulous
+       provided a = 2, b = 1, c=2, d=2 
+       ( (2+1) * (2/2) ) %2
+       ( 3 * 1 ) % 2
+       (3)%2
+       1
+      
+*********************************************************
+  17) Create a fruit class and store the details of Mango, Apple, PineApple, Grapes through default constructor
+  
+  18) Create a bike class and store the details of pulsar, glamour, cbz through Default constructor
+  
+  19) Create a Cricket Team member class and store all the cricketers details
+  atleast 3 
+        
+  20) Create a Course class and create the objects for the class and assign the data during object creation itself
+   coursename  courseduration    coursetutorname    coursefee   
+     java         45                  babu            100
+     advjava      45                  babu            100
+     ui           60                  babu            100
+  
+     Display data in the objects in single line for each object (clue : +)
+     // ex : 
+     courseName is java and courseDuration is 45 and coursetutorname is babu coursefee is 100
+     
+     
+     -- static
+   21) Create an employee class which is capable of storing all the details of java developers who are 
+   working in different organizations.
+     
+      -- Create 3 objects
+      -- display each object properties
+      ** Create 2 objects with parameterised constructor
+      ** create 1 object with default constructor
+     
+   22) Create a class which stores 2bhk details
+               -- house no
+               -- address
+               -- noOfRooms (4 rooms)
+               -- currentBill
+     
+     Method Overloading
+  23)  Create an example own which demonstrates method overloading in java
+  
+  
+  
+
+Inheritance :: 
+
+24) 
+  the breakdown of the requirements for this assignment. You will need to develop a system that can track employee information for two Organizations (Google and Microsoft). The Employee information you must track is as follows:
+
+Name
+Sex
+Job Title
+Organization they work for
+Birthday
+As for the Organization that the Employee works for, you must also track this information:
+
+Organization Name
+Number of Employees
+
+try to identify the common fields and individual fields and based on that you should build the classes and establish the relation between them. 
+Note : Fields should be private and we should use getters and setters individually
+
+Clue : Inheritance
+
+
+Task 25 : 
+
+An author has published 3 books and here are the details
+
+For all the 3 books , details are 
+authorName
+authorGender
+authorEmail
+bookName
+noOfPagesInBook
+
+try to identify the common fields and individual fields and based on that you should build the classes and establish the relation between them. 
+Note : Fields should be private and we should use getters and setters individually
+
+Clue : Inheritance
+
+
+Take 3 books of your choice and display their details
+
+
+
+Task 26 :
+
+Save 3 cricketers details in objects
+1 -- Virat Kohli 
+Profile :
+Name : Virat Kohli
+Age : 26
+noOfMatches : 100
+noOfCenturies : 20
+
+
+
+name : Ashwin
+age : 28
+noOfMatches : 200
+noOfWickets : 40
+
+
+name : Nehra
+age : 35
+noOfMatches : 400
+noOfWickets : 100
+
+Name : Dhoni
+age : 32
+noOFMatches : 350
+noOFStumps : 100
+
+Try with inheritance
+
+Task 27 :  *******
+
+Use inheritance to display a student record 
+
+Operation
+The user enters a college student's identification number followed by the major and GPA.
+
+The application creates a college student object and displays the object to the screen.
+
+
+Specifications
+First, create a class that defines a student. This class should contain at least two instance variables for identification number and GPA. 
+It should also contain two constructors, a default one and one that accepts two values for the instance variables. In addition to set and get methods,
+ the class should override the toString method from the Object class.
+
+Next, create a class that defines a college student. To do this, the class should inherit the above class.
+ In addition to the inherited instance variables, this class should contain at least one more instance variable 
+ that defines the college students major. This class should also contain a default constructor and parameterised constructor 
+ one that accepts three values for the instance variables. The first statement in this constructor should call a constructor in the superclass. This class should also override the toString method.
+
+Code a driver class that carries out the operation of the project.
+
+Assume valid data is entered.
+
+
+Task 28 :
+
+Create a Vehicle class which consists of  numberPlate, licenceNo
+
+Create a Car class which consists of its own properties -- noOfTyres, noOFSeats
+
+Create a Bus class which consists of its own properties -- noOfTyres, noOFSeats
+
+
+Clue : Inheritance
+          
+  
+Oct 23rd --
+
+  Task 29 : 
+  
+  -------------------
+  Method Overloading
+  Method Overriding
+  Interface
+  Abstraction
+  
+  -----------------------------------------------------
+  
+  Files 
+  
+   1 --> Create a new file in your machine with a java program
+       Just check whether do you have file in the location or not
+     
+  
+Task 1 :  create a file with your name in d drive under abc folder and write your professional details to the file 
+and try to read the same from the file
+
+Task 2 : Display all the files names under programFiles folder in C drive
+                    --- need to find no of items
+                    --- need to find how many no of files
+                    --- need to find how many no of folders
+
+Task 3 : Check whether a file exists with name filesConcept.txt in the programFiles folder of c drive and 
+if exists try to display its size , if not try to create the file and display no. of characters in the file.
+
+
+Task 4 : Check whether there are any directories in the program files folder of c drive in your machine
+---- also find no. of folders inside that and no of files inside that folder
+Clue :list(), isDirectory()
+
+
+Task 5 : Try to display new line with the help of Buffered Writer in any file of your choice.
+
+  
+Task 6 : Build an application which is capable of reading content from console 
+and gives back the content what you enter in the console till you press EXIT
+
+Once i press EXIT it should stop asking me further
+  
+Clue : Infinite Loop, .equals
+     
+     
+     
+     ###########################################
+     
+---->
+     Sort the data in treeMap with strings as keys
+     
+     
+---> try to store below values in treeSet 
+       anurag  -- 6
+       saisravan -- 9
+       shashi -- 6
+       srividya --8
+       vasu  -- 4
+       vishnu  -- 6
+       babu  -- 4
+       
+       Sort the above values based on length of the strings
+     
+         babu
+         vasu
+         anurag
+         shashi
+         vishnu
+         srividya
+         saisravan
+     
+     Criteria : based on length of string , if they get matched with length then i wish to get them through
+      alphabetical order
+     
+     
+     
+     
+     
+     
+     
+     
+     
