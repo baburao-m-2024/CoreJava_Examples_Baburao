@@ -6,6 +6,7 @@ public class ArithmeticOperatorsDemo {
 
 		int num1 = 15;
 		int num2 = 10;
+		int num3 = 90;
 		
 		System.out.println(num1 + num2);  // 25
 		System.out.println(num1 - num2);  // 5
