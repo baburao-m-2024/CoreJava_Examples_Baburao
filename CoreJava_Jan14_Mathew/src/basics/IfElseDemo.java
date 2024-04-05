@@ -5,6 +5,7 @@ public class IfElseDemo {
 	public static void main(String[] args) {
 
 		System.out.println("Starting of main method");
+		int id = 90;		
 		
 		displayDesignation(60);
 		

@@ -8,7 +8,7 @@ public class ArraysDemo_2 {
 		
 		courses[0] = "html";
 		courses[1] = "css";
-	//	courses[2] = 80;
+		courses[2] = 80;
 		courses[3] = "ts";
 	//	courses[4] = "angular";
 	//	courses[5] = "java";

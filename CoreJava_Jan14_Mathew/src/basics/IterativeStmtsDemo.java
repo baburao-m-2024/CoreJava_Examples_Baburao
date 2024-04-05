@@ -3,6 +3,7 @@ package basics;
 public class IterativeStmtsDemo {
 
 	public static void main(String[] args) {
+		int id = 90;
 
 		for(int i=1; i<=5; i++) {
 			System.out.println("hi hello "+i);
